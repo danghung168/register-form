@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="top_header">
+				<div class="logo">
+					<h1>facebook</h1>
+				</div>
+
+				<form action="" id="submit_top">
+					<div class="user_log">
+						<label for="user_name"  >Email or Phone</label>  <br> 
+						<input type="text" id="user_log" name="user_name" onfocus="clickUserSign()"> <br>
+						<input type="checkbox" name="check_pas" > <label for="check_pas" style="color: #5CADFF"> Keep me logged in</label>
+					</div>
+					<div class="password_log">
+
+						<label for="password_log">Password </label> <br>
+						<input type="password" id="password_log" name="password_log"> <br> 
+						<p style="color: #5CADFF">Forgot password</p>
+					</div>
+					<div class="login">
+						<input type="submit" value="Login">
+					</div>
+				</form>
+			</div>
+
+
+		</header>
+		<div class="content">
+			<div class="main_content">
+				<form action="result.html" id="form_sign">
+					<div class="user">
+						<input type="text" id="user" name="user" placeholder="Email"> <span id="check_user"> </span>
+
+					</div>
+					<div class="password">
+						<input type="password" id="password" name="password" placeholder="Password" > <span id="check_pass"></span> <br> 
+						<input type="password" id="re_password" name="re_password" placeholder="Return password" > <span id="check_repass"> </span>
+					</div>
+					<div class="username" > 
+						<input type="text" id="username" name="name" placeholder="Name"> <span id="check_name"> </span>
+					</div>
+					<div class="birthday">
+						<select name="day" id="day">
+							<option value="Day">Day</option>
+							
+						</select>	
+						<select name="month" id="month">
+							<option value="month">Month</option>
+							
+						</select>	
+						<select name="year" id="year">
+							<option value="Year">Year</option>
+							
+						</select>
+					</div>
+					<div class="sex"> 
+						<label for="radio">Male</label>	<input type="radio" name="radio" value="male" id="male"> <span></span>
+						
+						
+						<label for="radio">Female</label><input type="radio" name="radio" value="female" id="female"> 
+							
+						
+					</div>
+					<div>
+						<input type="text" name="email" placeholder="Email" id="email">  <span id="check_email"> </span> <label for="email">Email khôi phục tài khoản</label>
+					</div>
+					<div class="sign_up">
+						<input type="submit" value="Sign Up">
+					</div>
+				</form>
+				<div class="img">
+					<img src="font.png" alt="">
+				</div>
+			</div><!-- end main-content -->
+			
+		</div> <!-- end content -->
+		
+	</div><!-- end wrap -->
+	<script src="js/jquery-2.2.1.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

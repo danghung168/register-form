@@ -1,0 +1,129 @@
+*{	font-family: arial;
+	margin:0 ;
+	padding: 0;
+	}
+p{
+	font-size: 13px;
+}
+label{
+	font-size: 13px;
+}
+.wrap{
+	margin: auto;
+	width: 100%;
+	
+	max-height: 100vh;
+}
+header{
+
+	width: 100%;
+	height: 100px;
+	background-color: #3a5795;
+}
+.top_header{
+
+	margin: auto;
+	height: 100%;
+	width: 1200px;
+}
+.logo{
+	float: left;
+	padding-top:30px;
+	padding-left: 300px;
+	width: 15%;
+	height: 50px;
+}
+h1{height: 100%
+	width:100%;
+	font-size: 40px;
+	color: white;
+}
+.top_header > form{
+	float: left;
+	padding-top:25px;
+	padding-left: 70px;
+	width: 450px;
+}
+#user_log, #password_log{
+	width: 150px;
+	height: 22px;
+}
+.user_log, .password_log{
+	float: left;
+	width: 40%;
+}
+
+.password_log p{
+	color: white;
+	font-size: 13px;
+}
+.login{
+	width: 10%;
+	font-size: 13px;
+	padding-top:18px; 
+	float: right;
+}
+.login input{
+	
+	color: white;
+	background:  #3a5795;
+	height: 25px;
+	width: 50px;
+	font-size: 13px;
+}
+.user_log label, .password_log label{
+	font-size: 13px;
+	color: white;
+}
+#user , #password,#re_password, #username, #email{
+	border-radius: 5px;
+	width: 300px;
+	height: 35px;
+}
+span{
+	display: block;
+	width: 300px;
+	font-size: 13px;
+	color: red;
+}
+.content{
+	background: linear-gradient(white,#D3D8E8);
+	width: 100%;
+	height: 600px;
+	float: left;
+}
+.main_content{
+	height: 600px;
+	margin: auto;
+	width: 1200px;
+}
+.main_content .img{
+	/*padding-right: 500px;*/
+	float: left;
+	width: 25%;
+}
+.main_content > form{
+	margin-top: 50px;
+	padding-right: 115px;
+	width: 400px;
+	height: 100%;
+	float:right;
+}
+.main_content > form > div{
+	margin: 20px;
+}
+.content .main_content .img{
+	margin-top: 50px;
+	margin-right: 200px;
+	float: right;
+	width: 25%;
+}
+.sign_up input{
+
+	width: 300px;
+	height: 60px;
+	background-color: #69a74e;
+	color: white;
+	border-radius: 10px;
+	font-size: 25px;
+}
